@@ -12,12 +12,6 @@ except ImportError:
     warnings.warn("Langflow provides a function to help you upload files to the flow. Please install langflow to use it.")
     upload_file = None
 
-BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "81cb95a1-7831-46a7-8a89-1a9c92e3ab3a"
-FLOW_ID = "43d3ab91-5da1-4fcf-a921-07add6fc6bb9"
-APPLICATION_TOKEN = "<YOUR_APPLICATION_TOKEN>"
-ENDPOINT = "" # You can set a specific endpoint name in the flow settings
-
 # You can tweak the flow by adding a tweaks dictionary
 # e.g {"OpenAI-XXXXX": {"model_name": "gpt-4"}}
 TWEAKS = {
